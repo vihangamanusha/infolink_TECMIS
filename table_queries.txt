@@ -2,7 +2,6 @@
 
 CREATE DATABASE project;
 
-
 CREATE TABLE Lecture(
     Lecture_id CHAR(6),
     Lecture_name VARCHAR(50),
@@ -105,3 +104,5 @@ VALUES
    ('LE092', '067-8927433'),
    ('LE093', '078-6120764'),
    ('LE095', '070-8059200');
+
+// PINIMAL
