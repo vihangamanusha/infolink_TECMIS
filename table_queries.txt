@@ -115,3 +115,13 @@ VALUES
     mid_practical_marks DECIMAL(5,2),
     PRIMARY KEY (student_id, course_id)
 );
+
+--Create Final_Marks TABLE
+
+CREATE TABLE Final_Marks (
+    student_id INT,
+    course_id INT,
+    final_theory_marks DECIMAL(5,2),
+    final_practical_marks DECIMAL(5,2),
+    PRIMARY KEY (student_id, course_id)
+);
