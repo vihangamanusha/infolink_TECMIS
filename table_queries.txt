@@ -108,3 +108,5 @@ VALUES
    CREATE TABLE CA_Marks(
     
    )
+
+   CREATE TABLE Grade()
