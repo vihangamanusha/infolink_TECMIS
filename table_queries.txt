@@ -105,6 +105,13 @@ VALUES
    ('LE093', '078-6120764'),
    ('LE095', '070-8059200');
 
-   CREATE TABLE CA_Marks(
-    
-   )
+  CREATE TABLE CA_Marks (
+    student_id INT,
+    course_id INT,
+    quiz1_marks DECIMAL(5,2),
+    quiz2_marks DECIMAL(5,2),
+    quiz3_marks DECIMAL(5,2),
+    mid_theory_marks DECIMAL(5,2),
+    mid_practical_marks DECIMAL(5,2),
+    PRIMARY KEY (student_id, course_id)
+);
